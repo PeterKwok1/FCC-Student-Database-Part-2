@@ -52,3 +52,4 @@ psql --username=freecodecampe --dbname=postres
 psql --username=freecodecamp --dbname=postres
 psql --username=freecodecamp --dbname=postgres
 psql -U postgres < students.sql
+__vsc_prompt_cmd_original
