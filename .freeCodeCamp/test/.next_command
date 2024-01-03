@@ -51,3 +51,4 @@ psql --username=freecodecamp --dbname=postgre
 psql --username=freecodecampe --dbname=postres
 psql --username=freecodecamp --dbname=postres
 psql --username=freecodecamp --dbname=postgres
+psql -U postgres < students.sql
