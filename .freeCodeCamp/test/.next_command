@@ -60,3 +60,4 @@ __vsc_prompt_cmd_original
 which bash
 ./student_info.sh
 __vsc_prompt_cmd_original
+./student_info.sh
