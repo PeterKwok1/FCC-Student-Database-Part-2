@@ -68,3 +68,7 @@ psql --username=freecodecamp --dbname=students
 ./student_info.sh
 __vsc_prompt_cmd_original
 ./student_info.sh
+git remote remove coderoad
+git remote add origin https://github.com/PeterKwok1/FCC-Student-Database-Part-2.git
+git remote -v
+git add .
