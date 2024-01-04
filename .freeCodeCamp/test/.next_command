@@ -66,3 +66,4 @@ psql --username=freecodecamp --dbname=students
 ./student_info.sh
 ./student_info.sh
 ./student_info.sh
+__vsc_prompt_cmd_original
