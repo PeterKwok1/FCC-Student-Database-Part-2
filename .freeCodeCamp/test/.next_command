@@ -72,3 +72,5 @@ git remote remove coderoad
 git remote add origin https://github.com/PeterKwok1/FCC-Student-Database-Part-2.git
 git remote -v
 git add .
+git commit -m "fcc student database bash scripting part 2"
+git push -u origin master
