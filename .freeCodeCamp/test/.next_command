@@ -62,3 +62,4 @@ which bash
 __vsc_prompt_cmd_original
 ./student_info.sh
 psql --username=freecodecamp --dbname=students
+psql --username=freecodecamp --dbname=students
