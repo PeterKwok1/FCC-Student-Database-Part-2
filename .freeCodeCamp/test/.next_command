@@ -287,3 +287,6 @@ __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 psql --username=freecodecamp --dbname=students
 psql --username=freecodecamp --dbname=students
 ./student_info.sh
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+git add .
