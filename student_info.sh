@@ -16,3 +16,5 @@ echo "$($PSQL "SELECT first_name, last_name, gpa FROM students WHERE last_name >
 
 echo -e "\nLast name of students whose last name contains a case insensitive 'sa' or have an 'r' as the second to last letter:"
 echo "$($PSQL "SELECT last_name FROM students WHERE last_name ILIKE '%SA%' OR last_name LIKE '%r_'")"
+
+echo -e "\nFirst name, last name, and GPA of students who have not selected a major and either their first name begins with 'D' or they have a GPA greater than 3.0:"
