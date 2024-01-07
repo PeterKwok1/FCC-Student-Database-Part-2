@@ -27,3 +27,4 @@ echo -e "\nAverage GPA of all students rounded to two decimal places:"
 echo "$($PSQL "SELECT ROUND(AVG(gpa), 2) FROM students")"
 
 echo -e "\nMajor ID, total number of students in a column named 'number_of_students', and average GPA rounded to two decimal places in a column name 'average_gpa', for each major ID in the students table having a student count greater than 1:"
+echo "$($PSQL "select major_id, count(*) as number_of_students, round(avg(gpa), 2) as averag_gpa from students group by major_id having count(*) > 1")"
