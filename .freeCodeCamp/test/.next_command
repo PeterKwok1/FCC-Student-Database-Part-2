@@ -448,3 +448,83 @@ git log
 git log
 git revert 9fd457513539b6c1802e580c4b84e33b04213b27
 git add .
+git commit -m "test"
+git revert 9fd457513539b6c1802e580c4b84e33b04213b27
+git remote
+git remote -v
+git pull remote
+git pull origin
+git clone https://github.com/PeterKwok1/FCC-Student-Database-Part-2.git
+git clone
+git clone
+git clone https://github.com/PeterKwok1/FCC-Student-Database-Part-2.git
+pwd
+ls --color=auto
+l
+ls --color=auto
+-l
+ls --color=auto
+cd FCC-Student-Database-Part-2/
+ls --color=auto
+ls --color=auto -l
+ls --color=auto -a
+cd ..
+cd ..
+[ -d "$HOME/bin" ]
+[ -d "$HOME/.local/bin" ]
+echo -n f986c130-f865-4834-9b01-426371bf18dd
+cat /proc/self/environ
+echo -n f986c130-f865-4834-9b01-426371bf18dd
+builtin unset VSCODE_INJECTION
+[ -z "$VSCODE_SHELL_INTEGRATION" ]
+[ -n "${VSCODE_ENV_REPLACE:-}" ]
+[ -n "${VSCODE_ENV_PREPEND:-}" ]
+[ -n "${VSCODE_ENV_APPEND:-}" ]
+[[ "$(uname -s)" =~ ^CYGWIN*|MINGW*|MSYS* ]]
+[[ "$HISTCONTROL" =~ .. ]]
+__vsc_history_verify=1
+__vsc_initialized=0
+__vsc_original_PS1="$PS1"
+__vsc_original_PS2="$PS2"
+__vsc_custom_PS1=""
+__vsc_custom_PS2=""
+__vsc_in_command_execution="1"
+__vsc_current_command=""
+__vsc_nonce="$VSCODE_NONCE"
+unset VSCODE_NONCE
+[[ -n "${bash_preexec_imported:-}" ]]
+__vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
+[[ -z "$__vsc_dbg_trap" ]]
+[[ "$__vsc_dbg_trap" != '__vsc_preexec "$_"' && "$__vsc_dbg_trap" != '__vsc_preexec_all "$_"' ]]
+trap '__vsc_preexec_all "$_"' DEBUG
+builtin unset VSCODE_INJECTION
+[ -z "$VSCODE_SHELL_INTEGRATION" ]
+[ -n "${VSCODE_ENV_REPLACE:-}" ]
+[ -n "${VSCODE_ENV_PREPEND:-}" ]
+[ -n "${VSCODE_ENV_APPEND:-}" ]
+[[ "$(uname -s)" =~ ^CYGWIN*|MINGW*|MSYS* ]]
+__vsc_original_prompt_command=${PROMPT_COMMAND:-}
+[[ "$HISTCONTROL" =~ .. ]]
+__vsc_history_verify=1
+__vsc_initialized=0
+__vsc_original_PS1="$PS1"
+__vsc_original_PS2="$PS2"
+__vsc_custom_PS1=""
+__vsc_custom_PS2=""
+__vsc_in_command_execution="1"
+__vsc_current_command=""
+__vsc_nonce="$VSCODE_NONCE"
+unset VSCODE_NONCE
+[[ -n "${bash_preexec_imported:-}" ]]
+__vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
+[[ -z "$__vsc_dbg_trap" ]]
+[[ "$__vsc_dbg_trap" != '__vsc_preexec "$_"' && "$__vsc_dbg_trap" != '__vsc_preexec_all "$_"' ]]
+trap '__vsc_preexec_all "$_"' DEBUG
+__vsc_original_prompt_command=${PROMPT_COMMAND:-}
+clear
+clear
+sudo service postgresql restart
+psql --username=freecodecamp --dbname
+psql --username=freecodecamp --dbname=students
+pg_dump -cC --inserts -U freecodecamp students > students.sql
+psql --username=freecodecamp --dbname=students
