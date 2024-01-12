@@ -766,3 +766,4 @@ trap '__vsc_preexec_all "$_"' DEBUG
 __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 ./student_info.sh
 psql --username=freecodecamp --dbname=students
+git add .
