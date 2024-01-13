@@ -829,3 +829,5 @@ psql --username=freecodecamp --dbname=students
 psql --username=freecodecamp --dbname=students
 ./student_info.sh
 psql --username=freecodecamp --dbname=students
+git add.
+git add .
