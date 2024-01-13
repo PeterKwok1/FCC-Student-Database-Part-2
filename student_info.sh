@@ -33,3 +33,6 @@ echo -e "\nList of majors, in alphabetical order, that either no student is taki
 echo "$($PSQL "select major from students full join majors on students.major_id = majors.major_id where first_name is null or first_name ilike '%ma%' order by major")"
 
 echo -e "\nList of unique courses, in reverse alphabetical order, that no student or 'Obie Hilpert' is taking:"
+
+echo "$($PSQL "
+select course from students full join majors using(major_id) full join majors_courses using (major_id) full join courses using(course_id) where first_name is null or (first_name = 'Obie' and last_name = 'Hilpert') group by course order by course desc;")"
